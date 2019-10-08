@@ -1,4 +1,4 @@
-#FROM node:8 as react-build
+#FROM node:12.11.1 as builder
 FROM node:12.11.1 AS builder
 MAINTAINER Kavirajan ST kavirajantech@gmail.com
 WORKDIR /app
