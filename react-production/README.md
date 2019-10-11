@@ -7,7 +7,7 @@ This repository helps how to run a react application in `docker(https://www.dock
 `docker build -t react:v1 .`
 
 ## Run docker container
-`docker run -d -p --name=reactjs 80:80 react:v1` and Navigate to `http://localhost/`
+`docker run -d --name reactjs -p 80:80 react:v1` and Navigate to `http://localhost/`
 
 ## Create a Service
 `docker service create --name reactjs --publish 80:80/tcp react:v1` and Navigate to `http://localhost/`
